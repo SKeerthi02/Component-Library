@@ -29,3 +29,79 @@ body{
     background: inherit;
     cursor: pointer;
 }
+
+/* badges */
+.badge-avatar{
+    display: flex;
+}
+.badge-circle{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -3rem;
+    left: -1rem;
+}
+
+.online-avatar{
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+}
+.badge-avatars {
+    display: flex;
+    flex-wrap: wrap;
+}
+.badge-circle-time{
+    width: 24px;
+    height: 16px;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-online{
+    background-color: var(--online);
+}
+.badge-inactive{
+    background-color: var(--inactive);
+}
+.badge-busy{
+    background-color: var(--busy);
+}
+.badge-away{
+    background-color: var(--away);
+}
+
+.badge-circle-away{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+}
+
+/* badge icon CSS*/
+
+.badge-icon{
+    display: flex;
+}
+.badge-icon-primary{
+    color: var(--primary-color);
+}
+.cart-quantity{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -2rem;
+    bottom: 0;
+    font-weight: 700;
+    color: black;
+
+}
+.badge-icon-fav {
+    color: var(--orange)
+}

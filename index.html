@@ -12,6 +12,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container"></div>
+    <div class="container">
+        <h3>Avatars with badges.
+            <ol>
+                <li>Person is Online</li>
+                <li>Online 2 mins ago</li>
+                <li> Person is online but inactive</li>
+                <li> Person is busy</li>
+                <li> Person is away</li>
+            </ol>
+        </h3>
+        <div class="badge-avatars">
+            <div class="badge-avatar">
+                <img src="./images/administrator.png" class="online-avatar circle"  alt="avatar">
+                <div class="badge-circle badge-online"></div>
+            </div>
+            <div class="badge-avatar">
+                <img src="./images/captain.png" class="online-avatar circle"  alt="avatar">
+                <div class="badge-circle badge-circle-time badge-online">2 min</div>
+            </div>
+            <div class="badge-avatar">
+                <img src="./images/man.png" class="online-avatar circle"  alt="avatar">
+                <div class="badge-circle badge-inactive"></div>
+            </div>
+            <div class="badge-avatar">
+                <img src="./images/doctor.png" class="online-avatar circle"  alt="avatar">
+                <div class="badge-circle badge-busy"></div>
+            </div>
+            <div class="badge-avatar">
+                <img src="./images/woman.png" class="online-avatar circle"  alt="avatar">
+                <div class="badge-circle badge-circle-away badge-away">-</div>
+            </div>
+        </div>
+        <hr>
+        <h3>Badges on Icons</h3>
+        <div class="badge-icon">
+            <button class="button button-badge-icon">
+                <i class="fas fa-shopping-cart fa-3x badge-icon-primary"></i>
+            </button>
+            <div class="badge-circle cart-quantity">5</div>
+            <button class="button button-badge-icon">
+                <i class="fas fa-shopping-cart fa-3x badge-icon-fav"></i>
+            </button>
+            <div class="badge-circle cart-quantity">5</div>
+        </div>
+        <hr>
+    </div>
 </body>
 </html>
