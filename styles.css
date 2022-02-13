@@ -29,3 +29,40 @@ body{
     background: inherit;
     cursor: pointer;
 }
+
+/* input form */
+form {
+    max-width: 450px;
+}
+form > div {
+    position: relative;
+    margin: 2px;
+}
+form > div > input {
+    width: 300px;
+    height: 30px;
+}
+form > div > label {
+    opacity: 0.3;
+    position: absolute;
+    left: 2px;
+    bottom: 2px;
+}
+
+form > div > input[type="text"]:focus + label,
+form > div > input[type="email"]:focus + label,
+form > div > input[type="password"]:focus + label {
+    opacity: 0;
+}
+
+form > input[type="text"]:valid,
+form > input[type="email"]:valid,
+form > input[type="password"]:valid {
+    border: 1px solid var(--alert-sucess);
+}
+
+form > input[type="text"]:valid + label,
+form > input[type="email"]:valid + label,
+form > input[type="password"]:valid + label {
+    opacity: 0;
+}
