@@ -29,3 +29,38 @@ body{
     background: inherit;
     cursor: pointer;
 }
+
+/* responsive image*/
+.profile-pic {
+    width: 25%;
+    margin: 3%;
+}
+
+.profile-pic-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* image */
+.profile-pic {
+    width: 25%;
+    margin: 3%;
+}
+
+.profile-pic-circle{
+    border-radius: 50%;
+}
+
+.bigger{
+    width: 200px;
+    height: 200px;
+}
+.big{
+    width: 150px;
+    height: 150px
+}
+.small{
+    width: 100px;
+    height: 100px;
+}
