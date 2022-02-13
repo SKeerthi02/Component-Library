@@ -29,3 +29,112 @@ body{
     background: inherit;
     cursor: pointer;
 }
+
+/* buttons CSS */
+.actionable-buttons{
+    display: flex;
+}
+.btn{
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 0.4rem;
+    margin: 2px;
+}
+.btn-primary-main{
+    background: var(--primary-color);
+}
+
+.btn-primary-danger{
+    background: var(--alert-failure);
+}
+
+.btn-primary-hit{
+    background: var(--orange);
+}
+.btn-primary-tulip{
+    background: var(--tulip);
+}
+
+.btn:hover{
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 0.4rem;
+    margin: 2px;
+    background: none;
+}
+
+.btn-primary-main:hover{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-primary-danger:hover{
+    border: 1px solid var(--alert-failure);
+    color: var(--alert-failure);
+}
+
+.btn-primary-hit:hover{
+    border: 1px solid var(--orange);
+    color: var(--orange);
+}
+.btn-primary-tulip:hover{
+    border: 1px solid var(--tulip);
+    color: var(--tulip);
+}
+
+.btn-secondary{
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 0.4rem;
+    margin: 2px;
+    background: none;
+}
+
+.btn-secondary-main{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-secondary-danger{
+    border: 1px solid var(--alert-failure);
+    color: var(--alert-failure);
+}
+
+.btn-secondary-hit{
+    border: 1px solid var(--orange);
+    color: var(--orange);
+}
+.btn-secondary-tulip{
+    border: 1px solid var(--tulip);
+    color: var(--tulip);
+}
+
+.btn-secondary:hover{
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 0.4rem;
+    margin: 2px;
+}
+
+.btn-secondary-main:hover{
+    background: var(--primary-color);
+}
+
+.btn-secondary-danger:hover{
+    background: var(--alert-failure);
+}
+
+.btn-secondary-hit:hover{
+    background: var(--orange);
+}
+.btn-secondary-tulip:hover{
+    background: var(--tulip);
+}
