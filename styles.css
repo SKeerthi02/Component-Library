@@ -53,14 +53,14 @@ body{
 }
 
 .bigger{
-    width: 200px;
-    height: 200px;
+    width: 12rem;
+    height: 12rem;
 }
 .big{
-    width: 150px;
-    height: 150px
+    width: 10rem;
+    height: 10rem;
 }
 .small{
-    width: 100px;
-    height: 100px;
+    width: 6rem;
+    height: 6rem;
 }
