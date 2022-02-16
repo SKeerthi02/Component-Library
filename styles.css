@@ -35,8 +35,8 @@ body{
     display: flex;
 }
 .badge-circle{
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     position: relative;
     bottom: -3rem;
@@ -45,17 +45,17 @@ body{
 
 .online-avatar{
     vertical-align: middle;
-    width: 75px;
-    height: 75px;
+    width: 4.7rem;
+    height: 4.7rem;
 }
 .badge-avatars {
     display: flex;
     flex-wrap: wrap;
 }
 .badge-circle-time{
-    width: 24px;
-    height: 16px;
-    font-size: 8px;
+    width: 1.5rem;
+    height: 1rem;
+    font-size: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,11 +74,14 @@ body{
     background-color: var(--away);
 }
 
-.badge-circle-away{
-    font-size: 16px;
+.display-flex{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.badge-circle-away{
+    font-size: 1rem;
     color: white;
     font-weight: bolder;
 }
@@ -92,10 +95,7 @@ body{
     color: var(--primary-color);
 }
 .cart-quantity{
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 1.5rem;
     left: -2rem;
     bottom: 0;
     font-weight: 700;
